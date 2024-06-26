@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    /* background-color: red; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 12, 12);
+}
+
+h1{
+    font-family: 'Roboto', sans-serif; 
+}
+
+#page-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: minmax(500px, 500px); 
+    gap: 1fr;
+    
+}
+
+.p1g1{
+    border-radius: 1rem;
+    background-color: #111111;
+    overflow: hidden;
+    margin: 5px;
+    
+}
+
+
+#scheme-pie-chart {
+    margin: 0 auto; /* Center horizontally */
+}
+
+#record-count-graph{
+    display: flex;
+    flex-direction: column;
+    max-height:500px;
+}
+
+
+
+#trend-sanctioned-amount-scheme-container{
+    gap: 1fr;
+    margin: 10px;
+}
